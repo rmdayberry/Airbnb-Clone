@@ -30,48 +30,35 @@
     <header class="bg-cover bg-center h-96">
       <div class="flex flex-col justify-center items-center h-full">
         <h1 class="text-4xl font-bold mb-4">Not sure where to go? Perfect.</h1>
-        <button class="bg-red-500 text-white py-2 px-6 rounded-lg shadow-lg">
+        <button class="bg-red-500 text-white px-6 py-2 rounded-r-md">
           I'm flexible
         </button>
       </div>
     </header>
 
     <!-- Search Bar -->
-    <section class="flex justify-center py-8 bg-gray-100">
-      <input
-        type="text"
-        placeholder="Search destinations"
-        class="px-4 py-2 border border-gray-300 rounded-l-md"
-      />
-      <button class="bg-red-500 text-white px-6 py-2 rounded-r-md">
-        Search
-      </button>
+    <section class="search-bar">
+      <input type="text" placeholder="Search destinations" />
+      <button>Search</button>
     </section>
 
     <!-- Featured Listings -->
-    <section class="p-8">
-      <h2 class="text-2xl font-bold mb-4">Featured Destinations</h2>
-      <div
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
-      >
-        <!-- Each listing-->
-        <div class="bg-white shadow-md rounded-lg overflow-hidden">
-          <img src="image1.jpeg" alt="Destination 1" />
-          <div class="p-4">
-            <h3 class="text-lg font-semibold">Destination 1</h3>
-          </div>
-        </div>
-        <!-- Reapeat for more listings -->
+    <section class="listings">
+      <h2>Featured Destinations</h2>
+      <div class="listing">
+        <img src="image1.jpeg" alt="Destination 1" />
+        <h3>Destination 1</h3>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer class="p-4 bg-gray-800 text-white text-center">
+    <footer>
+      <div class="footer-content">
         <p>© 2024 Airbnb, Inc.</p>
-        <ul class="flex justify-center space-x-4 mt-2">
-          <li><a href="#" class="hover:underline">Privacy</a></li>
-          <li><a href="#" class="hover:underline">Terms</a></li>
-          <li><a href="#" class="hover:underline">Sitemap</a></li>
+        <ul class="footer-links">
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Sitemap</a></li>
         </ul>
       </div>
     </footer>

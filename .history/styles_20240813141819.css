@@ -55,15 +55,3 @@ nav {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
 }
-
-.listing img {
-  width: 100%;
-  border-radius: 8px;
-}
-
-footer {
-  padding: 1rem 2rem;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-}
